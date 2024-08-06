@@ -30,7 +30,7 @@ $ terraform init -upgrade
 $ terraform plan -out main.tfplan <br>
 (save execution-plan in file "main.tfplan")
 
--> "terraform.tfstate" is created, is the single source of truth of your infrastructure provisioning (from the execution-plan)
+-> "terraform.tfstate" is created; it is the single source of truth of your infrastructure provisioning (from the execution-plan)
 
 ### apply execution plan (apply changes to Azure - add, change, destroy)
 $ terraform apply main.tfplan
