@@ -7,7 +7,8 @@
 - restart PC
 
 ## install Azure CLI on windows
-https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli#install-or-update
+- https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli#install-or-update
+- in VS Code, connect to azure account and tenant, run: $az login
 
 ## now try out
  Quickstart: https://learn.microsoft.com/en-us/azure/developer/terraform/create-resource-group?tabs=azure-cli
@@ -24,6 +25,6 @@ Create a file named outputs.tf (and insert the following code...)<br>
 ### Now initialize Terraform
 $ terraform init -upgrade
 
-### create TF execution plan
+### create TF execution plan (plan without executing it)
 $ terraform plan -out main.tfplan
 
