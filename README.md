@@ -42,5 +42,7 @@ $ terraform apply main.tfplan
 Bur we need divide code into reusable parts, in modules.
 All content in any ".tf" file is used for the execution-plan. It does not matter where we write snippets, but it makes sense for internal structure.
 
-"variables.tf" file can contain variables. The variables' attributes can be used in the "main.tf" file, using: "var.attr>".
-"terraform.tfvars" file can contain variables + their values, and this updates the default values of variables in the "variables.tf" file.
+"variables.tf" file can contain variables. The variables' attributes can be used in the "main.tf" file, using: "var.attr>". <br>
+"terraform.tfvars" file can contain variables + their values, and this updates the default values of variables in the "variables.tf" file. <br>
+"output.tf" file can output some data, while (resources?) running in a pipeline. E.g. you want to obtain some public IP address from a service, or know if it's running.
+--> $ terraform output    <--- shows you the output in the CLI.
