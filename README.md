@@ -36,10 +36,11 @@ $ terraform plan -out main.tfplan <br>
 $ terraform apply main.tfplan
 
 
-# Terraform is modular
+# Terraform is modular  --  for scaling
 
 "main.tf" can contain everything.
 Bur we need divide code into reusable parts, in modules.
 All content in any ".tf" file is used for the execution-plan. It does not matter where we write snippets, but it makes sense for internal structure.
 
-"variables.tf" can contain variables. The variables' attributes can be used in the "main.tf" file, using: "var.<attr>".
+"variables.tf" file can contain variables. The variables' attributes can be used in the "main.tf" file, using: "var.attr>".
+"terraform.tfvars" file can contain variables + their values, and this updates the default values of variables in the "variables.tf" file.
