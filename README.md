@@ -51,3 +51,13 @@ All content in any ".tf" file is used for the execution-plan. It does not matter
 "terraform.tfvars" file can contain variables + their values, and this updates the default values of variables in the "variables.tf" file. <br>
 "output.tf" file can output some data, while (resources?) running in a pipeline. E.g. you want to obtain some public IP address from a service, or know if it's running.
 --> $ terraform output    <--- shows you the output in the CLI.
+
+
+# Terraform Use Cases
+
+- you can build a huge application
+- then provision it on Azure in 30s
+- then do your work with the application
+- then destroy the Azure resources in 30s
+
+
