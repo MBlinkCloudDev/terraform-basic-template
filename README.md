@@ -36,6 +36,11 @@ $ terraform plan -out main.tfplan <br>
 $ terraform apply main.tfplan
 
 
+### (optional) destroy the applied resources
+$ terraform destroy
+
+
+
 # Terraform is modular  --  for scaling
 
 "main.tf" can contain everything.
