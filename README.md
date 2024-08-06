@@ -24,10 +24,11 @@ Create a file named outputs.tf (and insert the following code...)<br>
 
 ### Now initialize Terraform
 $ terraform init -upgrade
+(also run "terraform init", when you have a new configuration (or using one pulled down from somewhere), run "terraform init" first)
 
 ### create TF execution plan (plan without executing it)
 $ terraform plan -out main.tfplan <br>
-(save exe-plan in file "main.tfplan")
+(save execution-plan in file "main.tfplan")
 
 ### apply execution plan (apply changes to Azure - add, change, destroy)
 $ terraform apply main.tfplan
