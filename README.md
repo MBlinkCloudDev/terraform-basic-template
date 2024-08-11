@@ -1,5 +1,10 @@
 # terraform-basic-template
 
+## Advantages of Terraform
+- IaC
+- can easily build test environments
+- automated documentation
+
 ## install terraform on windows
 - create "Terraform" folder in C
 - paste the binary file (downloaded from https://developer.hashicorp.com/terraform/install#windows) into the folder
