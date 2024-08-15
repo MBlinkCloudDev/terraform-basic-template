@@ -66,7 +66,12 @@ All content in any ".tf" file is used for the execution-plan. It does not matter
 - then destroy the Azure resources in 30s
 
 
-
+# General Knowledge
+modul-Aufruf = keine flache Struktur
+alles im Folder = flache Struktr
+(zb output aus Modul wird nicht mitgenommen)
+- vars nur lokal
+- output von modul
 
 # Links & Resources
 - https://github.com/scraly/terraform-cheat-sheet/blob/6891067aa711d07cefed1ea2fb5582fa49c4d31e/terraform-cheat-sheet.pdf
