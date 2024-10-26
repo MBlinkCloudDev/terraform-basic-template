@@ -21,7 +21,7 @@
 
 
 Create a directory in which to test the sample Terraform code and make it the current directory.<br>
-Create a file named providers.tf (and insert the following code...)<br>
+Create a file named provider.tf (and insert the following code...)<br>
 Create a file named main.tf (and insert the following code...)<br>
 Create a file named variables.tf (and insert the following code...)<br>
 Create a file named outputs.tf (and insert the following code...)<br>
