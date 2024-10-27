@@ -27,13 +27,16 @@ Create a file named variables.tf (and insert the following code...)<br>
 Create a file named outputs.tf (and insert the following code...)<br>
 
 
-### Now initialize Terraform
+### initialize Terraform
 $ terraform init -upgrade
 (also run "terraform init", when you have a new configuration (or using one pulled down from somewhere), run "terraform init" first)
 
 
 ### validate configuration (check for errors and warnings)
 $ terraform validate
+
+### Format: rewrite Terraform configuration files (*.tf) to a canonical format and style
+$ terraform fmt [-check]
 
 
 ### create TF execution plan (plan without executing it)
