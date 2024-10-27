@@ -31,6 +31,11 @@ Create a file named outputs.tf (and insert the following code...)<br>
 $ terraform init -upgrade
 (also run "terraform init", when you have a new configuration (or using one pulled down from somewhere), run "terraform init" first)
 
+
+### validate configuration (check for errors and warnings)
+$ terraform validate
+
+
 ### create TF execution plan (plan without executing it)
 $ terraform plan -out main.tfplan <br>
 (save execution-plan in file "main.tfplan")
